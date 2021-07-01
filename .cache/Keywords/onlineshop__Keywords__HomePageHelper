@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "6B08AC12929B24BB41FAA98691AFAC81",
+  "keywordClasses": [
+    {
+      "name": "onlineshop.Keywords.HomePageHelper",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [
+            {
+              "name": "countryId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "closeBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

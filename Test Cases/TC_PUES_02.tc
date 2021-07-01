@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PUES_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06cd6605-8b13-4d90-b1c9-0bc163384799</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4bb203a7-8615-4556-8f9d-f7ea4a7696aa</id>
+      <masked>false</masked>
+      <name>countryId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>991cdbea-1415-4c9e-a501-2fcda4ba92e5</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64459643-544f-41d9-9e1d-25595cd1b44d</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>
