@@ -93,7 +93,6 @@ class ProductOverviewPageHelper {
 	def currentProductCount() {
 		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NumberOfCurrentProductCount'));
 		String str = web.text;
-		System.out.println("The current product count is" + str);
 		return Integer.parseInt(str)
 	}
 
