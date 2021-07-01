@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If the customer is on the product overview page, the system must offer the customer the opportunity to view the title of the current product overview page</description>
    <name>TC_PUES_04</name>
    <tag></tag>
    <comment></comment>

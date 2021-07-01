@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "BC5F6F896A57B0A68EAB4910287CB5A2",
+  "keywordFileContentHash": "16705667B02C7749C2907DD8AFF93538",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "navigateTo",
@@ -65,16 +64,22 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickButtonMehrProdukteAnzeigen",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "currentProductCount",
+          "parameters": []
+        },
+        {
+          "name": "checkIfCurrentProductCountDoubled",
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

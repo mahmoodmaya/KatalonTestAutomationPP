@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Open the product overview page for the subcategory &quot;Schrauben&quot; Link</description>
-   <name>TC_PUES_01</name>
+   <description></description>
+   <name>TC_PUES_03</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7c2fd3f2-d878-4c9b-bf8b-97ca500e81e1</testCaseGuid>
+   <testCaseGuid>767130cd-1565-4503-9149-c35360f8ad67</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>84c386c5-4542-4d85-a0bd-957a95717734</id>
+      <id>6ae7e563-f0cd-46bb-801b-41ead60b3658</id>
       <masked>false</masked>
-      <name>country_id</name>
+      <name>countryId</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>44d0a56d-2c75-4533-ae08-48d6ffa392b9</id>
+      <id>2c7bb07b-8f57-4a6c-ba5c-25e8afb5efa9</id>
       <masked>false</masked>
-      <name>categoryName</name>
+      <name>category</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>78ae48a4-369a-48a1-aac1-a402d7119e34</id>
+      <id>05ea3eb1-2aec-4fab-b1d6-a23e3f8cb9cc</id>
       <masked>false</masked>
       <name>productNo</name>
    </variable>

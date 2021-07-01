@@ -70,11 +70,11 @@ class ProductOverviewPageHelper {
 	}
 
 	/*@Keyword
-	def selectButtonMehrProdukeAnzeigen() {
-		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonMehrProdukteAnzeigen'));
-		web.click();
-	}*/
-	
+	 def selectButtonMehrProdukeAnzeigen() {
+	 WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonMehrProdukteAnzeigen'));
+	 web.click();
+	 }*/
+
 	@Keyword
 	def clickButtonMehrProdukteAnzeigen() {
 		try {
@@ -86,6 +86,30 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("'Mehr Produkte anzeigen' Button not found")
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
+	def currentProductCount() {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NumberOfCurrentProductCount'));
+		String str = web.text;
+		System.out.println("The current product count is" + str);
+		return Integer.parseInt(str)
+	}
+
+	@Keyword
+	def checkIfCurrentProductCountDoubled() {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NumberOfCurrentProductCount'));
+		String str = web.text;
+		int currentCount = Integer.parseInt(str);
+		int oldCount = currentProductCount();
+		int doubledCount = oldCount * 2;
+		if (currentCount == doubledCount) {
+			System.out.println("The current product count has doubled to" + currentCount);
+			return true;
+		}
+		else {
+			return false;
 		}
 	}
 }

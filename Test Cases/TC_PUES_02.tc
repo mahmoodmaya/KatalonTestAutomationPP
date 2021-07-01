@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>If the customer is on the product overview page, the system must offer the customer the opportunity to click the button &quot;Mehr Produkte anzeigen&quot;</description>
    <name>TC_PUES_02</name>
    <tag></tag>
    <comment></comment>
