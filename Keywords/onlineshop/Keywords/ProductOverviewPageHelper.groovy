@@ -69,11 +69,6 @@ class ProductOverviewPageHelper {
 		webDriver.navigate().to(link + "/" + categoryName + "/c/" + productNo );
 	}
 
-	/*@Keyword
-	 def selectButtonMehrProdukeAnzeigen() {
-	 WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonMehrProdukteAnzeigen'));
-	 web.click();
-	 }*/
 
 	@Keyword
 	def clickButtonMehrProdukteAnzeigen() {
