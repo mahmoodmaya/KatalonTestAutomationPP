@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is on the product overview page, the system must offer the customer the option to view the total number of existing products in this category as well as the number of variants</description>
+   <name>TC_PUES_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cec91135-3c7b-4bfd-954e-40190451d985</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a40538-50fd-404f-858a-6bdb80503652</id>
+      <masked>false</masked>
+      <name>countryId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7aa287dd-a851-4d5f-a2c4-437558881016</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e64d02f-90f0-4025-9436-655bdc1cfcb1</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a21c152-989a-41cc-81b4-50d6013b18be</id>
+      <masked>false</masked>
+      <name>numberOfProducts</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a646cac-af65-478e-9ef0-64723f147305</id>
+      <masked>false</masked>
+      <name>variants</name>
+   </variable>
+</TestCaseEntity>

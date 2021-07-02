@@ -119,7 +119,7 @@
    <testCaseLink>
       <guid>b6d4143e-99d3-448f-8b03-1dc6f5efc2a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_PUES_03</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -147,6 +147,51 @@
          <type>DATA_COLUMN</type>
          <value>ProductNo</value>
          <variableId>05ea3eb1-2aec-4fab-b1d6-a23e3f8cb9cc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7f16395-01b9-4084-9d19-fbd8290bb1a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_PUES_07</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TC_PUES_07</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CountryId</value>
+         <variableId>b6a40538-50fd-404f-858a-6bdb80503652</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Category</value>
+         <variableId>7aa287dd-a851-4d5f-a2c4-437558881016</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProductNo</value>
+         <variableId>4e64d02f-90f0-4025-9436-655bdc1cfcb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>numberOfProducts</value>
+         <variableId>6a21c152-989a-41cc-81b4-50d6013b18be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95f5cda5-b65c-4167-bd98-ff4c3b2d050f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>variants</value>
+         <variableId>0a646cac-af65-478e-9ef0-64723f147305</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

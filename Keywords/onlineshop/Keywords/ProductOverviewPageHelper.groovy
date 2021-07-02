@@ -111,4 +111,20 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
+
+	@Keyword
+	def isNumberOfTotalProductsAndVariantsExist(String numberOfproducts, String variants) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NumberOfTotalProductsAndVariants'));
+		String str =  web.text;
+		System.out.println("Output " + str);
+
+		if(str.contains(numberOfproducts) && str.contains(variants)) {
+			System.out.println("The total number of products and their variants exist");
+			return true;
+		}
+		else {
+			System.out.println("The total number of products and their variants don't exist");
+			return false;
+		}
+	}
 }
