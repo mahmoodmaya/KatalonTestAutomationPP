@@ -138,7 +138,7 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
-	
+
 	@Keyword
 	def isNavigationFacetExist(String facetButtonLabels) {
 		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NavigationFacet'));
@@ -152,6 +152,20 @@ class ProductOverviewPageHelper {
 		else {
 			System.out.println("The Navigation facet doesn't exist");
 			return false;
+		}
+	}
+
+	@Keyword
+	def isTileImgExist() {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ImgProductListTile'));
+		String str =  web.getAttribute("srcset");
+		if(str != null && !str.isEmpty()) {
+			System.out.println("The Product tile image does not exist");
+			return false;
+		}
+		else {
+			System.out.println("The Product tile image does exists");
+			return true;
 		}
 	}
 }

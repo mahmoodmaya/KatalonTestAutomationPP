@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of viewing the product image inside product list tile</description>
+   <name>TC_PUES_15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e6c9cc-1d13-406b-97b6-ce08c6f615af</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>300b7a0a-7caa-4547-8648-a1fbaf1922d7</id>
+      <masked>false</masked>
+      <name>countryId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1ed66a6-023e-4507-96be-d9bd15d8aa4e</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>760f3dbe-5ebc-46f1-8a04-230350a3ab39</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>
