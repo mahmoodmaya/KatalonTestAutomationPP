@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the navigation facet  is present</description>
+   <name>TC_PUES_08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a1b0357-043a-443e-bf65-c3bb92ba1022</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49c9072a-f8d2-46be-84a7-7b2fe427d252</id>
+      <masked>false</masked>
+      <name>countryId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79dcc8d0-26e3-433c-9bc3-28e748747a9e</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b06a0aa-5bbd-4bbe-ac69-0c4180820824</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7aeb6da-3d31-4402-8862-e30978a607c8</id>
+      <masked>false</masked>
+      <name>facetButtonLabels</name>
+   </variable>
+</TestCaseEntity>

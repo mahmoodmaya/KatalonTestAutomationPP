@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the buttons for navigating slider are present and clickable</description>
+   <name>TC_PUES_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caac2341-0ef8-4926-b274-347bd766a278</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32173285-df0b-4f98-b0fc-948dfc971489</id>
+      <masked>false</masked>
+      <name>countryId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2669a911-4482-47d2-84ee-5968f8f7bc38</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0fdf2da-3bd9-418d-840b-81f58d024ee1</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>

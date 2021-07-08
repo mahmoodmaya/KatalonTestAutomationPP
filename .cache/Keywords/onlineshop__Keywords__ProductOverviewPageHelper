@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "7B4A0BFB74B634150796BBAC27C9E05E",
+  "keywordFileContentHash": "4598DF4D2D6BC2D03D916EDB23B9A407",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "navigateTo",
@@ -65,23 +64,19 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clickButtonMehrProdukteAnzeigen",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "currentProductCount",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "checkIfCurrentProductCountDoubled",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "isNumberOfTotalProductsAndVariantsExist",
@@ -112,11 +107,32 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "isSliderForNavigationButtonsExist",
+          "parameters": []
+        },
+        {
+          "name": "isNavigationFacetExist",
+          "parameters": [
+            {
+              "name": "facetButtonLabels",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -122,4 +122,36 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
+
+	@Keyword
+	def isSliderForNavigationButtonsExist() {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/SliderForNavigationButtons'));
+		String str = web.text;
+		System.out.println("Output " + str);
+
+		if(str) {
+			System.out.println("The Navigation slider exists");
+			return true;
+		}
+		else {
+			System.out.println("The Navigation slider doesn't exist");
+			return false;
+		}
+	}
+	
+	@Keyword
+	def isNavigationFacetExist(String facetButtonLabels) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/NavigationFacet'));
+		String str = web.text;
+		System.out.println("Output " + str);
+
+		if(str.contains(facetButtonLabels)) {
+			System.out.println("The Navigation facet exists");
+			return true;
+		}
+		else {
+			System.out.println("The Navigation facet doesn't exist");
+			return false;
+		}
+	}
 }
