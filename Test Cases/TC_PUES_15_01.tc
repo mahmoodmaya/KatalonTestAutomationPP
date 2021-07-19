@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of viewing the product's title inside product list title</description>
+   <name>TC_PUES_15_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>054aed51-cf41-414e-9b0e-6b03c10656fe</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>293a1392-4cd4-4cc6-bee1-0571f59a81d7</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c11c65c5-1e58-4d56-b9f1-94eec1e5d061</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b867f535-b83a-4ef5-9e31-ef9f7df9b8d6</id>
+      <masked>false</masked>
+      <name>product_no</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd01e51a-0359-48a9-8605-01f68c7071d9</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>

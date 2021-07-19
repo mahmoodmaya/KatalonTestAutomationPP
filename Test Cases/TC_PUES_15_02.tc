@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of viewing the product's attributes inside product list tile</description>
+   <name>TC_PUES_15_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>791dd117-c739-4edc-a813-7a47337ef876</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcca9a85-e8d8-4d54-bf2d-a68e7ac0b138</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d87fdcb4-1d0e-4b13-af07-28c2c474908e</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dca1f75e-6e2b-45cb-b264-435d37484345</id>
+      <masked>false</masked>
+      <name>product_no</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d61969c-0e2d-4db3-81b0-3923b97b581a</id>
+      <masked>false</masked>
+      <name>attributes</name>
+   </variable>
+</TestCaseEntity>

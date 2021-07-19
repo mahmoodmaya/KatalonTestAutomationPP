@@ -168,4 +168,48 @@ class ProductOverviewPageHelper {
 			return true;
 		}
 	}
+
+	@Keyword
+	def isTileTitleExist(String title) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/TitleProductListTile'));
+		String str =  web.text;
+		if(str.contains(title)) {
+			System.out.println("The title of product tile is " + title);
+			return true;
+		}
+		else {
+			System.out.println("The title of product tile does not exist");
+			return false;
+		}
+	}
+
+	@Keyword
+	def isTileAttributeExist(String attributes) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/AttributeProductListTile'));
+		String str = web.text;
+
+		if(str.contains(attributes)) {
+			System.out.println("The Attributes exist: " + str);
+			return true;
+		}
+		else {
+			System.out.println("The Attributes don't exist: ");
+			return false;
+		}
+	}
+	
+	@Keyword
+	def isTilePriceTagExist(String priceTag) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/AttributeProductListTile'));
+		String str = web.text;
+
+		if(str.contains(priceTag)) {
+			System.out.println("The Price tag exist: " + str);
+			return true;
+		}
+		else {
+			System.out.println("The Price tag doesn't exist: ");
+			return false;
+		}
+	}
 }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6B08AC12929B24BB41FAA98691AFAC81",
+  "keywordFileContentHash": "343AD61B5F22D48E78F65E5D7AB44CCC",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.HomePageHelper",
@@ -20,16 +20,14 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "closeBrowser",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

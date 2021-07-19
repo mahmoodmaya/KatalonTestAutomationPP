@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of viewing the price tag inside product list tile</description>
+   <name>TC_PUES_15_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1561b4e-26a1-4d72-8531-02686a692ad6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8f89e8e-1070-4881-9831-1dc2532653d8</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed6c71d3-f6b2-4044-8f01-23ed32afcf44</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdeabcf6-0a8b-4885-b9c0-33ebdddc29d6</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16bb0122-59ec-4c13-8653-5798b4fc1301</id>
+      <masked>false</masked>
+      <name>priceTag</name>
+   </variable>
+</TestCaseEntity>

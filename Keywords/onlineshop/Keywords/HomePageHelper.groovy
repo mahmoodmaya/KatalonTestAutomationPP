@@ -59,7 +59,7 @@ class HomePageHelper {
 	}
 
 	def acceptCookies() {
-		WebElement web = WebUI.findWebElement(findTestObject('Onlineshop.Pages/HomePage/Elements/ButtonCookies'));
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/HomePage/Elements/ButtonCookies'));
 		web.click();
 	}
 }

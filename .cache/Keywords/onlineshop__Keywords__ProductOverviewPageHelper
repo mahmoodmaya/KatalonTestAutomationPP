@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E944393BDF90582F8D7F7FE19C13B0DC",
+  "keywordFileContentHash": "0B9CE7A6508B098C1F4F71846D7D037C",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -134,6 +134,60 @@
         {
           "name": "isTileImgExist",
           "parameters": []
+        },
+        {
+          "name": "isTileTitleExist",
+          "parameters": [
+            {
+              "name": "title",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "isTileAttributeExist",
+          "parameters": [
+            {
+              "name": "attributes",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "isTilePriceTagExist",
+          "parameters": [
+            {
+              "name": "priceTag",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
