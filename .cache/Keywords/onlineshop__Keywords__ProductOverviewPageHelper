@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0B9CE7A6508B098C1F4F71846D7D037C",
+  "keywordFileContentHash": "BEF322497C67F6422FC9E6FEE91FBB7B",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "navigateTo",
@@ -64,19 +65,23 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickButtonMehrProdukteAnzeigen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "currentProductCount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkIfCurrentProductCountDoubled",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isNumberOfTotalProductsAndVariantsExist",
@@ -107,11 +112,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isSliderForNavigationButtonsExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isNavigationFacetExist",
@@ -129,11 +136,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileImgExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isTileTitleExist",
@@ -151,7 +160,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileAttributeExist",
@@ -169,7 +179,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTilePriceTagExist",
@@ -187,10 +198,30 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "isTileSalesUnitExist",
+          "parameters": [
+            {
+              "name": "salesUnit",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
