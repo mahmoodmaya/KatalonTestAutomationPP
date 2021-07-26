@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is on the product overview page, the system must offer the customer the option of using the navigation facet to filter and sort their product overview page</description>
+   <name>TC_PUES_09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>346578f2-3783-4d0a-9f31-c53eb495e7fe</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0a20106-9746-46ce-9647-bcb62d45268b</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>211aea79-b421-4ffd-ad00-2252879f2505</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a357b20-d2cc-4638-8cf7-247ec6c0d607</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>

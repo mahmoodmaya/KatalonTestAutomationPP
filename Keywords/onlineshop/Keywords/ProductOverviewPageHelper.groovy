@@ -156,6 +156,48 @@ class ProductOverviewPageHelper {
 	}
 
 	@Keyword
+	def isButtonFilterAndSortierungClickable() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonFilterAndSortierung'));
+			KeywordUtil.logInfo("Clicking the 'Filter & Sortierung' Button")
+			web.click()
+			KeywordUtil.markPassed("'Filter & Sortierung' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Filter & Sortierung' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
+	@Keyword
+	def isButtonSortierungClickable() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonSortierung'));
+			KeywordUtil.logInfo("Clicking the 'Sortierung' Button")
+			web.click()
+			KeywordUtil.markPassed("'Sortierung' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Sortierung' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
+	@Keyword
+	def isButtonFilterClickable() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonFilter'));
+			KeywordUtil.logInfo("Clicking the 'Filter' Button")
+			web.click()
+			KeywordUtil.markPassed("'Filter' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Filter' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
 	def isTileImgExist() {
 		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ImgProductListTile'));
 		String str =  web.getAttribute("srcset");
@@ -243,7 +285,7 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
-	
+
 	@Keyword
 	def isTileSelectStorePossible() {
 		try {

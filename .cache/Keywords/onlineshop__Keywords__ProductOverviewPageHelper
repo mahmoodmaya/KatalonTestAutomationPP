@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "9279ED7BAD734F0A34066AAB68CD31F1",
+  "keywordFileContentHash": "AA86C22723679AA714DE5AD3155FB13E",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -130,6 +130,18 @@
               }
             }
           ]
+        },
+        {
+          "name": "isButtonFilterAndSortierungClickable",
+          "parameters": []
+        },
+        {
+          "name": "isButtonSortierungClickable",
+          "parameters": []
+        },
+        {
+          "name": "isButtonFilterClickable",
+          "parameters": []
         },
         {
           "name": "isTileImgExist",

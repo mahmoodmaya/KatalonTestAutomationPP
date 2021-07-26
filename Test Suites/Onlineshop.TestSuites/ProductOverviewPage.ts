@@ -267,6 +267,39 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>42b16089-00dd-483c-a302-091e6bddda92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_PUES_09</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>54853544-016c-4064-b5fa-78adb68fe515</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TC_PUES_01</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>54853544-016c-4064-b5fa-78adb68fe515</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CountryId</value>
+         <variableId>d0a20106-9746-46ce-9647-bcb62d45268b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54853544-016c-4064-b5fa-78adb68fe515</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Category</value>
+         <variableId>211aea79-b421-4ffd-ad00-2252879f2505</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>54853544-016c-4064-b5fa-78adb68fe515</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProductNo</value>
+         <variableId>9a357b20-d2cc-4638-8cf7-247ec6c0d607</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cc6e0f3a-a77d-46ff-93c0-2b95359a0e12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -497,7 +530,7 @@
    <testCaseLink>
       <guid>42e30e06-35b1-4c82-9d8a-002381156528</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_PUES_15_06</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

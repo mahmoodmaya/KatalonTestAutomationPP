@@ -52,6 +52,13 @@ class HomePageHelper {
 		WebUI.maximizeWindow();
 		acceptCookies();
 	}
+	
+	@Keyword
+	def openBrowserWC(String countryId) {
+		String link = GlobalHelper.getMapperByCountryId(countryId, "link");
+		WebUI.openBrowser(link);
+		WebUI.maximizeWindow();
+	}
 
 	@Keyword
 	def closeBrowser() {
