@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OnlineAvailabilityProductTile</name>
+   <tag></tag>
+   <elementGuidId>5536f0e8-2d6d-43ef-bb16-5ea826669911</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='product-list-tile__availability-online']//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='product-list-tile__availability-online']//div</value>
+   </webElementProperties>
+</WebElementEntity>

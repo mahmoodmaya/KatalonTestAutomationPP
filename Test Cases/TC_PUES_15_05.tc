@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of viewing if the product is available online inside the product list tile</description>
+   <name>TC_PUES_15_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>687ef863-7b21-47f7-b368-700cb7b30af9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd10d6c1-fa92-4830-8fc6-37aa47984830</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d55123a2-3f30-4b72-bf77-6b03be3d3bce</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9855d481-2240-4f87-96d1-8b69f8ae53d5</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43b0a810-6675-4f83-b217-8003183d73f5</id>
+      <masked>false</masked>
+      <name>availability</name>
+   </variable>
+</TestCaseEntity>
