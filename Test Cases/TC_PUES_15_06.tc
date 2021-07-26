@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of selecting a store inside the product list tile</description>
+   <name>TC_PUES_15_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15c6d3be-aefa-491b-aac5-de2535882c08</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>220e2c9a-83c3-46e1-bf7f-0f1605b31b74</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3dbdc428-b4f3-4804-8861-50cd39434caa</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31d26648-3c0d-4432-97bd-ab2a4918f3b3</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>

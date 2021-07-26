@@ -227,13 +227,13 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
-	
+
 
 	@Keyword
 	def isTileProductAvailabilityExist(String text) {
 		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/OnlineAvailabilityProductTile'))
 		String str = web.text;
-		
+
 		if(str.contains(text)) {
 			System.out.println("The product availability exists within the product tile");
 			return true;
@@ -241,6 +241,20 @@ class ProductOverviewPageHelper {
 		else {
 			System.out.println("The product availability doesn't exist within the product tile");
 			return false;
+		}
+	}
+	
+	@Keyword
+	def isTileSelectStorePossible() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/SelectStoreProductTile'));
+			KeywordUtil.logInfo("Clicking the 'Select Store' Button")
+			web.click()
+			KeywordUtil.markPassed("The 'Select Store' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("The 'Select Store' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
 }

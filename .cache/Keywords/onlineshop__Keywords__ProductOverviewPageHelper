@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "98A6A9C4D6D297D55B2908EF2D814847",
+  "keywordFileContentHash": "9279ED7BAD734F0A34066AAB68CD31F1",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -224,6 +224,10 @@
               }
             }
           ]
+        },
+        {
+          "name": "isTileSelectStorePossible",
+          "parameters": []
         }
       ]
     }
