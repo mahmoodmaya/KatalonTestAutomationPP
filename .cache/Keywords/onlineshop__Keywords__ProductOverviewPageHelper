@@ -1,9 +1,14 @@
 {
-  "keywordFileContentHash": "AA86C22723679AA714DE5AD3155FB13E",
+  "keywordFileContentHash": "78DE020110823BF00B94B480489F96F8",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
       "keywordMethods": [
+        {
+          "name": "scrollDown",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "isProductOverviewPageTitleExist",
           "parameters": [
@@ -20,7 +25,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "checkIfJumpedToTop",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "navigateTo",
@@ -64,19 +75,23 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickButtonMehrProdukteAnzeigen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "currentProductCount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkIfCurrentProductCountDoubled",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isNumberOfTotalProductsAndVariantsExist",
@@ -107,11 +122,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isSliderForNavigationButtonsExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isNavigationFacetExist",
@@ -129,23 +146,33 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isButtonFilterAndSortierungClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isButtonSortierungClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isButtonFilterClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "checkPageTopButton",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isTileImgExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isTileTitleExist",
@@ -163,7 +190,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileAttributeExist",
@@ -181,7 +209,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTilePriceTagExist",
@@ -199,7 +228,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileSalesUnitExist",
@@ -217,7 +247,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileProductAvailabilityExist",
@@ -235,14 +266,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileSelectStorePossible",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

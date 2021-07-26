@@ -46,6 +46,11 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class ProductOverviewPageHelper {
+	
+	@Keyword
+	def scrollDown() {
+		WebUI.scrollToPosition(50, 60)
+	}
 
 	@Keyword
 	def isProductOverviewPageTitleExist(String keyword) {
@@ -57,6 +62,18 @@ class ProductOverviewPageHelper {
 		}
 		else {
 			System.out.println("The Product Overview page title does not exist");
+			return false;
+		}
+	}
+	
+	@Keyword
+	def checkIfJumpedToTop() {
+		int top_viewport = WebUI.getViewportTopPosition();
+		if(top_viewport == 0) {
+			System.out.println("Successfully jumped to top");
+			return true;
+		} else {
+			System.out.println("Button Jump to Top is not working");
 			return false;
 		}
 	}
@@ -168,7 +185,7 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
-	
+
 	@Keyword
 	def isButtonSortierungClickable() {
 		try {
@@ -182,7 +199,7 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
-	
+
 	@Keyword
 	def isButtonFilterClickable() {
 		try {
@@ -192,6 +209,20 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markPassed("'Filter' Button has been clicked")
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("'Filter' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
+	@Keyword
+	def checkPageTopButton() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonPageTop'));
+			KeywordUtil.logInfo("Clicking the 'Jump to Top' Button")
+			web.click()
+			KeywordUtil.markPassed("'Jump to top' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Jump to top' Button not found")
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to click on element")
 		}

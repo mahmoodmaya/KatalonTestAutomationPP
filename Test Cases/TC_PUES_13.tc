@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is anywhere on the product overview page, the system must offer the customer the option of going back to the top of the page</description>
+   <name>TC_PUES_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fbb3be7-a135-4168-947e-c198ef03101f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53cebb79-be95-4150-9d61-690e2defebee</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e51d7c25-b640-4f7c-9417-7302779e39a9</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4370b77b-07ff-4bcc-b17c-0764baafda07</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>
