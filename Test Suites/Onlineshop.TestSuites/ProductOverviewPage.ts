@@ -627,30 +627,36 @@
       <testCaseId>Test Cases/TC_PUES_06</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>3f97506d-e9dc-4ac7-b4cc-7042aa2b9bd8</id>
+         <id>bb9a6c9b-1d6d-4ef8-854a-876523615630</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/TC_PUES_01</testDataId>
+         <testDataId>Data Files/TC_PUES_06</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>3f97506d-e9dc-4ac7-b4cc-7042aa2b9bd8</testDataLinkId>
+         <testDataLinkId>bb9a6c9b-1d6d-4ef8-854a-876523615630</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CountryId</value>
          <variableId>0dafbf94-1503-4c90-92a0-444fa5c816d7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f97506d-e9dc-4ac7-b4cc-7042aa2b9bd8</testDataLinkId>
+         <testDataLinkId>bb9a6c9b-1d6d-4ef8-854a-876523615630</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Category</value>
          <variableId>fc29b4db-108e-4269-ab46-4f6480ca4b7b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f97506d-e9dc-4ac7-b4cc-7042aa2b9bd8</testDataLinkId>
+         <testDataLinkId>bb9a6c9b-1d6d-4ef8-854a-876523615630</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ProductNo</value>
          <variableId>ad18e716-d6fa-439a-8726-717625035311</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb9a6c9b-1d6d-4ef8-854a-876523615630</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Link</value>
+         <variableId>326061b8-d73e-4266-93e6-525519888421</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

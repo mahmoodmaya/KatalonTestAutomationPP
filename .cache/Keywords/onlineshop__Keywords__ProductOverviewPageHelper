@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "9E7DE76E207469169EC1BFE289DE40B7",
+  "keywordFileContentHash": "D6C8C646571AD2F9409CF4DEB28A791D",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -278,6 +278,24 @@
         {
           "name": "checkBackButton",
           "parameters": []
+        },
+        {
+          "name": "checkifBackButtonWorked",
+          "parameters": [
+            {
+              "name": "link",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }

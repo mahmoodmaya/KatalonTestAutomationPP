@@ -23,5 +23,9 @@ CustomKeywords.'onlineshop.Keywords.ProductOverviewPageHelper.navigateTo'(countr
 
 CustomKeywords.'onlineshop.Keywords.ProductOverviewPageHelper.checkBackButton'()
 
+result = CustomKeywords.'onlineshop.Keywords.ProductOverviewPageHelper.checkifBackButtonWorked'(link)
+
+assert result == true
+
 CustomKeywords.'onlineshop.Keywords.HomePageHelper.closeBrowser'()
 

@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>productNo</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>326061b8-d73e-4266-93e6-525519888421</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
 </TestCaseEntity>

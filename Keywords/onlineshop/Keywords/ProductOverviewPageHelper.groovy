@@ -373,4 +373,19 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
+	
+	@Keyword
+	checkifBackButtonWorked(String link) {
+		String currentLink = WebUI.getUrl()
+		System.out.println("Current Link: " + currentLink);
+		
+		if(link == currentLink) {
+			System.out.println("Redirected sucessfully through the back button");
+			return true;
+		} else {
+			System.out.println("Redirecting through the back button failed");
+			return false;
+		}
+	}
+
 }
