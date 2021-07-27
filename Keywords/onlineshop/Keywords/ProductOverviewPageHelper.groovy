@@ -165,6 +165,33 @@ class ProductOverviewPageHelper {
 		}
 	}
 
+	@Keyword
+	def selectButtonWishList() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonWishList'));
+			KeywordUtil.logInfo("Clicking the 'Merken' Button")
+			web.click()
+			KeywordUtil.markPassed("'Merken' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Merken' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
+	@Keyword
+	checkIfWishlistAdded(String addedItem) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ItemWishList'));
+		String str = web.text;
+		System.out.println("Output " + str);
+		if(str.contains(addedItem)) {
+			System.out.println("The Item has been added successfully");
+			return true;
+		} else {
+			System.out.println("The Item was not added");
+			return false;
+		}
+	}
 
 	@Keyword
 	def isNumberOfTotalProductsAndVariantsExist(String numberOfproducts, String variants) {

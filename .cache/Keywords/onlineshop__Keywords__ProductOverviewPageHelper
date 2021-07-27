@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DA13795D43B693707A4DBD4A15AC9A86",
+  "keywordFileContentHash": "80343C8BCD9ECEC615DFB74E17072E1C",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
@@ -105,6 +105,30 @@
         },
         {
           "name": "checkIfCompareProductAdded",
+          "parameters": [
+            {
+              "name": "addedItem",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "selectButtonWishList",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "checkIfWishlistAdded",
           "parameters": [
             {
               "name": "addedItem",

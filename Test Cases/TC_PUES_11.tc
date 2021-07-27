@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is on the product overview page, the system must offer the customer the option of adding any product to the Bookmark list</description>
+   <name>TC_PUES_11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2708129-03b9-40c4-8e16-41f97cae68b5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abe550db-9744-49d4-af29-a23c47eeed4a</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e20bc33e-5d97-4b5d-b089-5b678de28d40</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea3af5fd-5ccf-450d-be78-e0f59f31df80</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ccb01054-3ec4-4fcc-b08e-f93f8fb2c2a3</id>
+      <masked>false</masked>
+      <name>itemAdded</name>
+   </variable>
+</TestCaseEntity>

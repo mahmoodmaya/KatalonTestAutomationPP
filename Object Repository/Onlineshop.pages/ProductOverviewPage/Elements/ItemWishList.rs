@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ItemWishList</name>
+   <tag></tag>
+   <elementGuidId>10b6fc43-c023-41e8-bab2-75ef6b620604</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='js_off-canvas-watchlist']/div[2]/ul[1]/li[2]/div[1]/div[2]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='js_off-canvas-watchlist']/div[2]/ul[1]/li[2]/div[1]/div[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
