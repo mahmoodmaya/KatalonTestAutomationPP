@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "D6C8C646571AD2F9409CF4DEB28A791D",
+  "keywordFileContentHash": "DA13795D43B693707A4DBD4A15AC9A86",
   "keywordClasses": [
     {
       "name": "onlineshop.Keywords.ProductOverviewPageHelper",
       "keywordMethods": [
         {
           "name": "scrollDown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isProductOverviewPageTitleExist",
@@ -24,11 +25,18 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "checkproductCount",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkIfJumpedToTop",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "navigateTo",
@@ -72,23 +80,28 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "clickButtonMehrProdukteAnzeigen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "currentProductCount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkIfCurrentProductCountDoubled",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectButtonCompareProduct",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkIfCompareProductAdded",
@@ -106,7 +119,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isNumberOfTotalProductsAndVariantsExist",
@@ -137,11 +151,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isSliderForNavigationButtonsExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isNavigationFacetExist",
@@ -159,27 +175,33 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isButtonFilterAndSortierungClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isButtonSortierungClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isButtonFilterClickable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkPageTopButton",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isTileImgExist",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "isTileTitleExist",
@@ -197,7 +219,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileAttributeExist",
@@ -215,7 +238,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTilePriceTagExist",
@@ -233,7 +257,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileSalesUnitExist",
@@ -251,7 +276,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileProductAvailabilityExist",
@@ -269,15 +295,18 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isTileSelectStorePossible",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkBackButton",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "checkifBackButtonWorked",
@@ -295,10 +324,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

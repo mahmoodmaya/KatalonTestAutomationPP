@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is on the product overview page, the system must offer the customer the opportunity to get an insight into the number of products displayed out of the total number of products</description>
+   <name>TC_PUES_10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce957950-533f-45b2-81aa-20ac1551f074</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5b6c0f5-c5ed-4870-a72a-660bd2eb7669</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>532a6717-733b-4a4b-9e10-37f3a6b214e8</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>89b267a2-5547-4519-a40f-0fe2301996d5</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+</TestCaseEntity>

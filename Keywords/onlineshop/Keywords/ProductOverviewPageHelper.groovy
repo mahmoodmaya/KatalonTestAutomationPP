@@ -67,6 +67,19 @@ class ProductOverviewPageHelper {
 	}
 
 	@Keyword
+	def checkproductCount() {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/CurrentProductCount'));
+		String str =  web.text;
+		if(str.contains('36')) {
+			System.out.println("The current product count is visible");
+			return true;
+		}
+		else {
+			System.out.println("The current product count is not visible");
+			return false;
+		}
+	}
+	@Keyword
 	def checkIfJumpedToTop() {
 		int top_viewport = WebUI.getViewportTopPosition();
 		if(top_viewport == 0) {
@@ -139,19 +152,19 @@ class ProductOverviewPageHelper {
 	}
 
 	@Keyword
-	 checkIfCompareProductAdded(String addedItem) {
-		 WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/AddedItem'));
-		 String str = web.text;
-		 System.out.println("Output " + str);
-		 if(str.contains(addedItem)) {
-			 System.out.println("The Item has been added successfully");
-			 return true;
-		 } else {
-			 System.out.println("The Item was not added");
-			 return false;
-		 }
+	checkIfCompareProductAdded(String addedItem) {
+		WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/AddedItem'));
+		String str = web.text;
+		System.out.println("Output " + str);
+		if(str.contains(addedItem)) {
+			System.out.println("The Item has been added successfully");
+			return true;
+		} else {
+			System.out.println("The Item was not added");
+			return false;
+		}
 	}
-	 
+
 
 	@Keyword
 	def isNumberOfTotalProductsAndVariantsExist(String numberOfproducts, String variants) {
@@ -359,7 +372,7 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
-	
+
 	@Keyword
 	def checkBackButton() {
 		try {
@@ -373,12 +386,12 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
-	
+
 	@Keyword
 	checkifBackButtonWorked(String link) {
 		String currentLink = WebUI.getUrl()
 		System.out.println("Current Link: " + currentLink);
-		
+
 		if(link == currentLink) {
 			System.out.println("Redirected sucessfully through the back button");
 			return true;
@@ -387,5 +400,4 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
-
 }
