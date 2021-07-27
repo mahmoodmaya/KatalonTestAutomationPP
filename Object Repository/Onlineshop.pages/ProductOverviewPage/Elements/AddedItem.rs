@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddedItem</name>
+   <tag></tag>
+   <elementGuidId>90ea6fad-e4b1-447b-8164-c7f6449a0231</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='js_off-canvas-compare']/div[2]/ul[1]/li[2]/div[1]/div[2]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='js_off-canvas-compare']/div[2]/ul[1]/li[2]/div[1]/div[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

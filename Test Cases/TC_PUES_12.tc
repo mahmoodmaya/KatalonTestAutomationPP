@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If the customer is on the product overview page, the system must offer the customer the option of adding any product to the comparison list</description>
+   <name>TC_PUES_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0fd7fad-6db2-4ddb-9ba5-b593a0118e92</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04e5ba30-aec8-4f9a-9ddc-83b42cddb7e8</id>
+      <masked>false</masked>
+      <name>country_id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1990db71-243b-4dd6-9ca1-9a5efb1851ae</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6137cba2-92e9-46f9-a8cd-008ea8e2561e</id>
+      <masked>false</masked>
+      <name>productNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c051001-b542-4c50-a7bd-5758e12ada77</id>
+      <masked>false</masked>
+      <name>addedItem</name>
+   </variable>
+</TestCaseEntity>

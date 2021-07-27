@@ -46,7 +46,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class ProductOverviewPageHelper {
-	
+
 	@Keyword
 	def scrollDown() {
 		WebUI.scrollToPosition(50, 60)
@@ -65,7 +65,7 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
-	
+
 	@Keyword
 	def checkIfJumpedToTop() {
 		int top_viewport = WebUI.getViewportTopPosition();
@@ -123,6 +123,35 @@ class ProductOverviewPageHelper {
 			return false;
 		}
 	}
+
+	@Keyword
+	def selectButtonCompareProduct() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonCompareProduct'));
+			KeywordUtil.logInfo("Clicking the 'Compare Product' Button")
+			web.click()
+			KeywordUtil.markPassed("'Compare Product' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("'Compare Product' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+
+	@Keyword
+	 checkIfCompareProductAdded(String addedItem) {
+		 WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/AddedItem'));
+		 String str = web.text;
+		 System.out.println("Output " + str);
+		 if(str.contains(addedItem)) {
+			 System.out.println("The Item has been added successfully");
+			 return true;
+		 } else {
+			 System.out.println("The Item was not added");
+			 return false;
+		 }
+	}
+	 
 
 	@Keyword
 	def isNumberOfTotalProductsAndVariantsExist(String numberOfproducts, String variants) {
@@ -213,7 +242,7 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
 	}
-	
+
 	@Keyword
 	def checkPageTopButton() {
 		try {
@@ -326,6 +355,20 @@ class ProductOverviewPageHelper {
 			KeywordUtil.markPassed("The 'Select Store' Button has been clicked")
 		} catch (WebElementNotFoundException e) {
 			KeywordUtil.markFailed("The 'Select Store' Button not found")
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Fail to click on element")
+		}
+	}
+	
+	@Keyword
+	def checkBackButton() {
+		try {
+			WebElement web = WebUI.findWebElement(findTestObject('Object Repository/Onlineshop.pages/ProductOverviewPage/Elements/ButtonBack'));
+			KeywordUtil.logInfo("Clicking the 'Zürück' Button")
+			web.click()
+			KeywordUtil.markPassed("The 'Zürück' Button has been clicked")
+		} catch (WebElementNotFoundException e) {
+			KeywordUtil.markFailed("The 'Zürück' Button not found")
 		} catch (Exception e) {
 			KeywordUtil.markFailed("Fail to click on element")
 		}
